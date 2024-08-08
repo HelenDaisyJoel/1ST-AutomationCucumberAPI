@@ -1,0 +1,570 @@
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-7363"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-8e9f",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoEncoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:41 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 21
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoDecoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "DolbyDecoder-3d56"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_decoder_identifier": "NoneID-cc41",
+    "state": null,
+    "supported_channel_vendor": "VENDOR_DOLBY",
+    "vendor_channel_identifier": null,
+    "project_id": null,
+    "zone": null,
+    "instance_name": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoDecoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:42 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 5
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoChannel
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": null,
+    "display_name": {
+        "value": "DolbyChannel-79b0"
+    },
+    "vendor": "VENDOR_DOLBY",
+    "vendor_channel_identifier": null,
+    "connector_id": "74",
+    "state": null,
+    "foreign_ids": [
+        {
+            "type": "CHRIMSEventCode",
+            "values": [
+                "123"
+            ]
+        }
+    ],
+    "auto_angle_name": "platforms/video/cameraAngles/backside",
+    "description": "test description",
+    "decoder_name": null,
+    "create_replay": true,
+    "cluster_name": "platforms/video/videoChannelClusters/018e5dcb-7d64-7578-b9b7-2f1a324894de",
+    "height": "_1080p",
+    "frame_rate": "_50f",
+    "transcoder_id": null,
+    "transcoder_d_n_s": null,
+    "vendor_token_id": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoChannel", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:43 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 19
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-d206"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-1c08",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoEncoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:44 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 5
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoDecoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "DolbyDecoder-2f97"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_decoder_identifier": "DolbyID-fa24",
+    "state": null,
+    "supported_channel_vendor": "VENDOR_NONE",
+    "vendor_channel_identifier": null,
+    "project_id": null,
+    "zone": null,
+    "instance_name": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoDecoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:45 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 3
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-5bf5"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-eee6",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoEncoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:46 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 24
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoDecoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-01-4130"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_decoder_identifier": "Test-01-7548",
+    "state": "STATE_UNSPECIFIED",
+    "supported_channel_vendor": "VENDOR_PHENIX",
+    "vendor_channel_identifier": "test-bca2",
+    "project_id": "test",
+    "zone": "test",
+    "instance_name": "InstanceName"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoDecoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:47 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 2
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoChannel
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": null,
+    "display_name": {
+        "value": "PhenixChannel-1de2"
+    },
+    "vendor": "VENDOR_PHENIX",
+    "vendor_channel_identifier": "vendor-Phenix134-5a49",
+    "connector_id": null,
+    "state": null,
+    "foreign_ids": [
+        {
+            "type": "CHRIMSEventCode",
+            "values": [
+                "123"
+            ]
+        }
+    ],
+    "auto_angle_name": "platforms/video/cameraAngles/backside",
+    "description": "test description",
+    "decoder_name": null,
+    "create_replay": true,
+    "cluster_name": null,
+    "height": null,
+    "frame_rate": null,
+    "transcoder_id": null,
+    "transcoder_d_n_s": null,
+    "vendor_token_id": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoChannel", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:47 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 8
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoDecoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "NoneDecoder-a87d"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_decoder_identifier": "NoneID-ba16",
+    "state": null,
+    "supported_channel_vendor": "VENDOR_NONE",
+    "vendor_channel_identifier": null,
+    "project_id": null,
+    "zone": null,
+    "instance_name": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoDecoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:48 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 5
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoChannel
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": null,
+    "display_name": {
+        "value": "DolbyChannel-37d7"
+    },
+    "vendor": "VENDOR_DOLBY",
+    "vendor_channel_identifier": null,
+    "connector_id": "74",
+    "state": null,
+    "foreign_ids": [
+        {
+            "type": "CHRIMSEventCode",
+            "values": [
+                "123"
+            ]
+        }
+    ],
+    "auto_angle_name": "platforms/video/cameraAngles/backside",
+    "description": "test description",
+    "decoder_name": null,
+    "create_replay": true,
+    "cluster_name": "platforms/video/videoChannelClusters/018e5dcb-7d64-7578-b9b7-2f1a324894de",
+    "height": "_1080p",
+    "frame_rate": "_50f",
+    "transcoder_id": null,
+    "transcoder_d_n_s": null,
+    "vendor_token_id": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoChannel", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:49 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 6
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Encoder1-0124"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID1-5e92",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoEncoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:50 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 3
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-a9f2"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-8aa0",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoEncoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:51 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 3
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoDecoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-01-4ba2"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_decoder_identifier": "Test-01-cd33",
+    "state": "STATE_UNSPECIFIED",
+    "supported_channel_vendor": "VENDOR_PHENIX",
+    "vendor_channel_identifier": "test-c9dd",
+    "project_id": "test",
+    "zone": "test",
+    "instance_name": "InstanceName"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoDecoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:51 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 5
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoChannel
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": null,
+    "display_name": {
+        "value": "PhenixChannel-3cb4"
+    },
+    "vendor": "VENDOR_PHENIX",
+    "vendor_channel_identifier": "vendor-Phenix134-6225",
+    "connector_id": null,
+    "state": null,
+    "foreign_ids": [
+        {
+            "type": "CHRIMSEventCode",
+            "values": [
+                "123"
+            ]
+        }
+    ],
+    "auto_angle_name": "platforms/video/cameraAngles/backside",
+    "description": "test description",
+    "decoder_name": null,
+    "create_replay": true,
+    "cluster_name": null,
+    "height": null,
+    "frame_rate": null,
+    "transcoder_id": null,
+    "transcoder_d_n_s": null,
+    "vendor_token_id": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoChannel", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:52 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 3
+
+Jwt is expired
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzIxOTc4NjU4LCJpYXQiOjE3MjE5Nzg2NTgsImV4cCI6MTcyMTk4OTQ1OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjE5Njk1MzQsImlkcCI6ImxvY2FsIiwic2lkIjoiNUI0RTM4MDM0MkNDMjBDM0E4MjE0NUNEQTFDOTJDQjkiLCJqdGkiOiI1NzdBN0NENjhEQUIzMkExNEUwQkE5RkVGMzEwMDQ3QyJ9.G4bJoXH7sId4mqNjUnFoCrG3EuAqqS_pV9mlbr2_GGtdlZoUCIi-a3hNOiCQTYOHpqbhuROmm7gLd5tnOKrdjeirN15UUewGE8OZJQ0ei1Ur1yQqOagJARuPk02dWkgnFRVEJF2hGiSKH9b98WC8bnPwPi-Mq6EM0coBplNyBlh0ful_CzLUXmWhUJQ5B-Lcel4SBhSgndVKW9nQ3likFcX7UdA2DuHY7v3OpGFlAJuLHOWVKL9eknaQFPQGCHltku7iS5hV_BIIesarIj1z_nV-IxqnJ5RKjkvevpEVxyEJjF64Nn4oQyBtwO-3s5J-67YorEYYf5pz5aEszxZmpw
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-1425"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-78be",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="https://preprod.1stbet.com/prism/v1/video/videoEncoder", error="invalid_token"
+content-length: 14
+content-type: text/plain
+date: Mon, 29 Jul 2024 13:14:53 GMT
+server: istio-envoy
+x-envoy-upstream-service-time: 5
+
+Jwt is expired
