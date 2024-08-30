@@ -7,7 +7,6 @@ public class CreateSource {
 	private DisplayName display_name;
 	private String angle_name;
 	private String encoder_name;
-	
 	private List<ForeignIdentifier> foreign_ids;
 	public List<ForeignIdentifier> getForeign_ids() {
 		return foreign_ids;
@@ -68,7 +67,4 @@ public class CreateSource {
 	public void setAutomate_booking(boolean automate_booking) {
 		this.automate_booking = automate_booking;
 	}
-	
-	
-
 }

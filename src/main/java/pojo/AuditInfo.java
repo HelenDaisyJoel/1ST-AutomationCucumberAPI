@@ -38,9 +38,6 @@ public class AuditInfo {
 		public void setUpdate_time(String update_time) {
 			this.update_time = update_time;
 		}
-		
-	    // Getters and Setters
-	    
 	}
 
 

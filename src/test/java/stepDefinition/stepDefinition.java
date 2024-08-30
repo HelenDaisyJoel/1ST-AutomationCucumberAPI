@@ -140,19 +140,19 @@ public class stepDefinition extends Utils {
         System.out.println("Parent: " + Parent);
     }
 
-    @Given("Create VideoSource1 with {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {String}")
-    public void create_video_source1_with(String Parent, String DisplayName, String EncoderName, String AngleName, String ForeignIDType, String ForeignIDValue, String AutomatedStartMargin, String AutomatedEndMargin, String AutomateBooking) throws IOException {
-        // Generate a random display name if needed
-        String randomDisplayName = DisplayName + "-" + UUID.randomUUID().toString().substring(0, 4);
-
-        // Retrieve encoder name from scenario context
-        String dynamicEncoderName = scenarioContext.getContext("EncoderName").toString();
-
-        // Proceed with creating the video source using dynamicEncoderName
-        res = given().spec(requestSpecification()).header("accept", "application/json")
-                .header("Authorization", token)
-                .body(source.createSourcePayload(Parent, randomDisplayName, dynamicEncoderName, AngleName, ForeignIDType, ForeignIDValue, AutomatedStartMargin, AutomatedEndMargin, AutomateBooking));
-    }
+//    @Given("Create VideoSource1 with {string}, {string}, {string}, {string}, {string}, {string}, {string}, {booleanType}")
+//    public void create_video_source1_with(String Parent, String DisplayName, String AngleName, String ForeignIDType, String ForeignIDValue, String AutomatedStartMargin, String AutomatedEndMargin, boolean AutomateBooking) throws IOException {
+//        // Generate a random display name if needed
+//        String randomDisplayName = DisplayName + "-" + UUID.randomUUID().toString().substring(0, 4);
+//
+//        // Retrieve encoder name from scenario context
+//        String dynamicEncoderName = scenarioContext.getContext("EncoderName").toString();
+//
+//        // Proceed with creating the video source using dynamicEncoderName
+//        res = given().spec(requestSpecification()).header("accept", "application/json")
+//                .header("Authorization", token)
+//                .body(source.createSourcePayload(Parent, randomDisplayName, dynamicEncoderName, AngleName, ForeignIDType, ForeignIDValue, AutomatedStartMargin, AutomatedEndMargin, AutomateBooking));
+//    }
 
 
     
