@@ -6,10 +6,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/java/features/encoder.feature",
+    features = "src/test/java/features/VideoBookingNoneValidation.feature",
     glue = {"stepDefinition","CustomParameterTypes"},
     plugin = {"pretty", "html:target/cucumber-reports"},
-    monochrome = true
+    monochrome = true,
+    publish = true
 )
 public class TestRunner {
 	

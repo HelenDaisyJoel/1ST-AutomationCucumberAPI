@@ -24,7 +24,7 @@ Feature: Validating the swagger API for Video Booking-Vendor None
     
     Examples:
   | Parent                       | DisplayName | EncoderIdentifier | Vendor |
-  | org/Test_Org/orgUnits/Unit-01| Test     | EncoderID       | LTN    |
+  | org/test/orgUnits/test1| Test     | EncoderID       | LTN    |
   
   
   @VideoDecoderNone
@@ -46,7 +46,7 @@ Feature: Validating the swagger API for Video Booking-Vendor None
     
     Examples:
     | Parent                       | DisplayName | Vendor | DecoderIdentifier | SupportedChannelVendor |
-    | org/Test_Org/orgUnits/Unit-01| DolbyDecoder | VENDOR_LTN    | DolbyID           | VENDOR_NONE    |
+    | org/test/orgUnits/test1| DolbyDecoder | VENDOR_LTN    | DolbyID           | VENDOR_NONE    |
    
     
     
@@ -69,7 +69,7 @@ Feature: Validating the swagger API for Video Booking-Vendor None
     
   Examples:
     | Parent                       | DisplayName| AngleName 																| ForeignIDType | ForeignIDValue | AutomatedStartMargin | AutomatedEndMargin | AutomateBooking |
-    | org/Test_Org/orgUnits/Unit-01| Source     |platforms/video/cameraAngles/jockey_cam_10 | CHRIMSEventCode| test 					| 10s      							| 10s 							| true					 |
+    | org/test/orgUnits/test1| Source     |platforms/video/cameraAngles/jockey_cam_10 | CHRIMSEventCode| test 					| 10s      							| 10s 							| true					 |
     
     
    @VideoChannel-None
@@ -93,7 +93,7 @@ Feature: Validating the swagger API for Video Booking-Vendor None
 
  Examples:
     | Parent                       | DisplayName | Vendor				|  AutoAngle 															| decoder																											|description 		|  ForeignIDType | ForeignIDValue |
-    | org/Test_Org/orgUnits/Unit-01| NoneChannel | VENDOR_NONE  | platforms/video/cameraAngles/backside |org/TEST12/videoDecoders/01906dea-09f0-71b9-9c52-8f156d021aa7 |test description|  CHRIMSEventCode	| 123			 |
+    | org/test/orgUnits/test1| NoneChannel | VENDOR_NONE  | platforms/video/cameraAngles/backside |org/TEST12/videoDecoders/01906dea-09f0-71b9-9c52-8f156d021aa7 |test description|  CHRIMSEventCode	| 123			 |
      
    
   @VideoBookings-None
@@ -115,6 +115,6 @@ Feature: Validating the swagger API for Video Booking-Vendor None
     Then "state" in response body as "STATE_PENDING"
    Examples:
     | Parent                       |   ForeignIDType   | ForeignIDValue |
-    | org/Test_Org/orgUnits/Unit-01| CHRIMSEventCode | 123            |
+    | org/test/orgUnits/test1| CHRIMSEventCode | 123            |
    
    

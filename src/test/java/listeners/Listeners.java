@@ -43,10 +43,8 @@ public class Listeners implements ITestListener {
     public void onTestSuccess(ITestResult result) {
         extentTest.get().pass("Test passed");
         test=extent.createTest(result.getName());
-        test.log(Status.PASS,"Testcase is Passed:"+result.getName());
-        
-        
-        
+        test.log(Status.PASS,"Testcase is Passed:"+result.getName());    
+               
     }
 
     @Override

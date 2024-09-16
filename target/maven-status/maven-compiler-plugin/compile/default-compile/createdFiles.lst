@@ -2,9 +2,9 @@ pojo\CreateDecoder.class
 pojo\CreateSource.class
 pojo\CreateChannel.class
 pojo\ForeignIdentifier.class
-pojo\DisplayName.class
 pojo\CreateEncoder.class
 pojo\AuditInfo.class
 pojo\UpdateDecoder.class
-pojo\CreateBooking.class
 pojo\UpdateEncoder.class
+pojo\DisplayName.class
+pojo\CreateBooking.class

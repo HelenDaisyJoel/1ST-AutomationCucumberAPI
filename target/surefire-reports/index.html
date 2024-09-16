@@ -129,7 +129,7 @@
                   <a name="runScenario(&quot;Verify whether Video Encoder is being successfully created&quot;, &quot;Validating the swagger API for Video ...)">
                   </a> <!-- runScenario("Verify whether Video Encoder is being successfully created", "Validating the swagger API for Video ...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify whether Video Encoder is being successfully created","Validating the swagger API for Video Booking-Vendor Phenix")</span>
+                  <span class="parameters">("Verify whether Video Encoder is being successfully created","Validating the swagger API for Video Booking-Vendor Dolby")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -146,6 +146,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;API Tests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;cucumber.Options.TestRunnerTestNG&quot;/&gt;
@@ -200,12 +203,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumber.Options.TestRunnerTestNG')
-data.setCell(0, 3, 7881);
+data.setCell(0, 3, 6630);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -233,16 +236,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumber.Options.TestRunnerTestNG</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@1de73d37)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@3df04fa1)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify whether Video Encoder is being successfully created", "Validating the swagger API for Video ...)</span>
-                <span class="method-start">396 ms</span>
+                <span class="method-start">459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">8280 ms</span>
+                <span class="method-start">7096 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

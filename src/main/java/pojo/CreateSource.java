@@ -8,18 +8,18 @@ public class CreateSource {
 	private String angle_name;
 	private String encoder_name;
 	private List<ForeignIdentifier> foreign_ids;
+	
+	private String state;
+	private String automated_start_margin;
+	private String automated_end_margin;
+	private boolean automate_booking;
+	
 	public List<ForeignIdentifier> getForeign_ids() {
 		return foreign_ids;
 	}
 	public void setForeign_ids(List<ForeignIdentifier> foreign_ids) {
 		this.foreign_ids = foreign_ids;
 	}
-	private String state;
-	private String automated_start_margin;
-	private String automated_end_margin;
-	private boolean automate_booking;
-	
-	
 	public String getParent() {
 		return parent;
 	}

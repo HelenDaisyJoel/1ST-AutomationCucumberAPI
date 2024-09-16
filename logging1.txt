@@ -1,0 +1,189 @@
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZDQ0VEQUJGNEI4NUIxMjYwNEI2NzhDRjg0NjcyREVGIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzI2NDk2NzkwLCJpYXQiOjE3MjY0OTY3OTAsImV4cCI6MTcyNjUwNzU5MCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjY0OTY3ODksImlkcCI6ImxvY2FsIiwic2lkIjoiQzA4QTUyNkI1NEVDMTMzNDJEMTg2NkVENDI2MTJFNUQiLCJqdGkiOiI4QTBERDZCRDU5OEI5NUNDQjE3NkMzQ0YyMDBBRkZFNSJ9.Aby5cJgIa9chQ1mF6TShBOmlYHp89pB4fjbaYiDrIvzmvbzsGHr1TuL62o-IbkjFWWYoW4AP41NoxdN5NRHORqxNK9y9sdb8yJMRpZMtUUbzEVZxhubWhixaqd32Rf_tV3gmYAWZpeSx0UQmsE7Id2bDEzY-xstlGf-dcbExffH2CLL6gUvLLCPUr21yBfJddMSstaxlwLbkvqFI7h96XkFF2URixMS35hMLyunxiwKhPw9NgJuDb6vnjZaAnKaYHlFa3eyv-4A7CMXb1ICFMCRekHn5STalMAv9g8lYSLSQUqpL37ylGgNiNg0_lNNSRQqKDWS9egRq_r_mqhvzLg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/test/orgUnits/test1",
+    "display_name": {
+        "value": "Test-741d"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-5088",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 200 OK
+content-length: 486
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 16 Sep 2024 16:02:10 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 16 Sep 2024 16:02:11 GMT
+x-envoy-upstream-service-time: 196
+server: istio-envoy
+
+{
+    "name": "org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c",
+    "parent": "org/test/orgUnits/test1",
+    "audit_info": {
+        "create_time": "2024-09-16T16:02:11.735500Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-09-16T16:02:11.735499Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 11958189
+    },
+    "display_name": {
+        "value": "Test-741d"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-5088",
+    "state": "STATE_ACTIVE"
+}
+Request method:	GET
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org%2Ftest%2FvideoEncoders%2F0191fb91-f291-7037-86a4-be7a84c87d2c
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	name=org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZDQ0VEQUJGNEI4NUIxMjYwNEI2NzhDRjg0NjcyREVGIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzI2NDk2NzkwLCJpYXQiOjE3MjY0OTY3OTAsImV4cCI6MTcyNjUwNzU5MCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjY0OTY3ODksImlkcCI6ImxvY2FsIiwic2lkIjoiQzA4QTUyNkI1NEVDMTMzNDJEMTg2NkVENDI2MTJFNUQiLCJqdGkiOiI4QTBERDZCRDU5OEI5NUNDQjE3NkMzQ0YyMDBBRkZFNSJ9.Aby5cJgIa9chQ1mF6TShBOmlYHp89pB4fjbaYiDrIvzmvbzsGHr1TuL62o-IbkjFWWYoW4AP41NoxdN5NRHORqxNK9y9sdb8yJMRpZMtUUbzEVZxhubWhixaqd32Rf_tV3gmYAWZpeSx0UQmsE7Id2bDEzY-xstlGf-dcbExffH2CLL6gUvLLCPUr21yBfJddMSstaxlwLbkvqFI7h96XkFF2URixMS35hMLyunxiwKhPw9NgJuDb6vnjZaAnKaYHlFa3eyv-4A7CMXb1ICFMCRekHn5STalMAv9g8lYSLSQUqpL37ylGgNiNg0_lNNSRQqKDWS9egRq_r_mqhvzLg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+content-length: 486
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 16 Sep 2024 16:02:12 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 16 Sep 2024 16:02:13 GMT
+x-envoy-upstream-service-time: 68
+server: istio-envoy
+
+{
+    "name": "org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c",
+    "parent": "org/test/orgUnits/test1",
+    "audit_info": {
+        "create_time": "2024-09-16T16:02:11.735500Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-09-16T16:02:11.735499Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 11958189
+    },
+    "display_name": {
+        "value": "Test-741d"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "EncoderID-5088",
+    "state": "STATE_ACTIVE"
+}
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org%2Ftest%2FvideoEncoders%2F0191fb91-f291-7037-86a4-be7a84c87d2c%3Adisable
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	name=org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZDQ0VEQUJGNEI4NUIxMjYwNEI2NzhDRjg0NjcyREVGIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzI2NDk2NzkwLCJpYXQiOjE3MjY0OTY3OTAsImV4cCI6MTcyNjUwNzU5MCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjY0OTY3ODksImlkcCI6ImxvY2FsIiwic2lkIjoiQzA4QTUyNkI1NEVDMTMzNDJEMTg2NkVENDI2MTJFNUQiLCJqdGkiOiI4QTBERDZCRDU5OEI5NUNDQjE3NkMzQ0YyMDBBRkZFNSJ9.Aby5cJgIa9chQ1mF6TShBOmlYHp89pB4fjbaYiDrIvzmvbzsGHr1TuL62o-IbkjFWWYoW4AP41NoxdN5NRHORqxNK9y9sdb8yJMRpZMtUUbzEVZxhubWhixaqd32Rf_tV3gmYAWZpeSx0UQmsE7Id2bDEzY-xstlGf-dcbExffH2CLL6gUvLLCPUr21yBfJddMSstaxlwLbkvqFI7h96XkFF2URixMS35hMLyunxiwKhPw9NgJuDb6vnjZaAnKaYHlFa3eyv-4A7CMXb1ICFMCRekHn5STalMAv9g8lYSLSQUqpL37ylGgNiNg0_lNNSRQqKDWS9egRq_r_mqhvzLg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 501 Not Implemented
+content-type: application/json
+date: Mon, 16 Sep 2024 16:02:13 GMT
+content-length: 42
+x-envoy-upstream-service-time: 13
+server: istio-envoy
+
+{
+    "code": 12,
+    "message": "Method Not Allowed"
+}
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org%2Ftest%2FvideoEncoders%2F0191fb91-f291-7037-86a4-be7a84c87d2c%3Areenable
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	name=org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZDQ0VEQUJGNEI4NUIxMjYwNEI2NzhDRjg0NjcyREVGIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzI2NDk2NzkwLCJpYXQiOjE3MjY0OTY3OTAsImV4cCI6MTcyNjUwNzU5MCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjY0OTY3ODksImlkcCI6ImxvY2FsIiwic2lkIjoiQzA4QTUyNkI1NEVDMTMzNDJEMTg2NkVENDI2MTJFNUQiLCJqdGkiOiI4QTBERDZCRDU5OEI5NUNDQjE3NkMzQ0YyMDBBRkZFNSJ9.Aby5cJgIa9chQ1mF6TShBOmlYHp89pB4fjbaYiDrIvzmvbzsGHr1TuL62o-IbkjFWWYoW4AP41NoxdN5NRHORqxNK9y9sdb8yJMRpZMtUUbzEVZxhubWhixaqd32Rf_tV3gmYAWZpeSx0UQmsE7Id2bDEzY-xstlGf-dcbExffH2CLL6gUvLLCPUr21yBfJddMSstaxlwLbkvqFI7h96XkFF2URixMS35hMLyunxiwKhPw9NgJuDb6vnjZaAnKaYHlFa3eyv-4A7CMXb1ICFMCRekHn5STalMAv9g8lYSLSQUqpL37ylGgNiNg0_lNNSRQqKDWS9egRq_r_mqhvzLg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 501 Not Implemented
+content-type: application/json
+date: Mon, 16 Sep 2024 16:02:14 GMT
+content-length: 42
+x-envoy-upstream-service-time: 12
+server: istio-envoy
+
+{
+    "code": 12,
+    "message": "Method Not Allowed"
+}
+Request method:	PATCH
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c?field_mask=display_name%2Cvendor_encoder_identifier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZDQ0VEQUJGNEI4NUIxMjYwNEI2NzhDRjg0NjcyREVGIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzI2NDk2NzkwLCJpYXQiOjE3MjY0OTY3OTAsImV4cCI6MTcyNjUwNzU5MCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MjY0OTY3ODksImlkcCI6ImxvY2FsIiwic2lkIjoiQzA4QTUyNkI1NEVDMTMzNDJEMTg2NkVENDI2MTJFNUQiLCJqdGkiOiI4QTBERDZCRDU5OEI5NUNDQjE3NkMzQ0YyMDBBRkZFNSJ9.Aby5cJgIa9chQ1mF6TShBOmlYHp89pB4fjbaYiDrIvzmvbzsGHr1TuL62o-IbkjFWWYoW4AP41NoxdN5NRHORqxNK9y9sdb8yJMRpZMtUUbzEVZxhubWhixaqd32Rf_tV3gmYAWZpeSx0UQmsE7Id2bDEzY-xstlGf-dcbExffH2CLL6gUvLLCPUr21yBfJddMSstaxlwLbkvqFI7h96XkFF2URixMS35hMLyunxiwKhPw9NgJuDb6vnjZaAnKaYHlFa3eyv-4A7CMXb1ICFMCRekHn5STalMAv9g8lYSLSQUqpL37ylGgNiNg0_lNNSRQqKDWS9egRq_r_mqhvzLg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "display_name": {
+        "value": "UpdatedDisplayName-81f4"
+    },
+    "vendor_encoder_identifier": "UpdatedID-7dbf"
+}
+HTTP/1.1 200 OK
+content-length: 500
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 16 Sep 2024 16:02:14 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 16 Sep 2024 16:02:15 GMT
+x-envoy-upstream-service-time: 60
+server: istio-envoy
+
+{
+    "name": "org/test/videoEncoders/0191fb91-f291-7037-86a4-be7a84c87d2c",
+    "parent": "org/test/orgUnits/test1",
+    "audit_info": {
+        "create_time": "2024-09-16T16:02:11.735500Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-09-16T16:02:15.442238Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 11958192
+    },
+    "display_name": {
+        "value": "UpdatedDisplayName-81f4"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "UpdatedID-7dbf",
+    "state": "STATE_ACTIVE"
+}

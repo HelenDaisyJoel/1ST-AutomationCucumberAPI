@@ -20,17 +20,8 @@ public class VideoBooking {
         foreignIdentifier.setType(foreignIDType);
         List<String> foreignIDValues = new ArrayList<>();
         foreignIDValues.add(foreignIDValue);
-        
         foreignIdentifier.setValues(foreignIDValues);
-		
-		
 		return createBooking;
-		
-		
-
-	
-	
-	
 
 }
 }

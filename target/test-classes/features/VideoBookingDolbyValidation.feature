@@ -24,7 +24,7 @@ Feature: Validating the swagger API for Video Booking-Vendor Dolby
     
     Examples:
   | Parent                       | DisplayName | EncoderIdentifier | Vendor |
-  | org/Test_Org/orgUnits/Unit-01| Test     | EncoderID       | LTN    |
+  | org/test/orgUnits/test1| Test     | EncoderID       | LTN    |
   
   
   @VideoDecoderDolby
@@ -48,7 +48,7 @@ Feature: Validating the swagger API for Video Booking-Vendor Dolby
     
    Examples:    
     | Parent                       | DisplayName | Vendor | DecoderIdentifier | SupportedChannelVendor |
-    | org/Test_Org/orgUnits/Unit-01| DolbyDecoder  | VENDOR_LTN    | NoneID           | VENDOR_DOLBY    |
+    | org/test/orgUnits/test1| DolbyDecoder  | VENDOR_LTN    | NoneID           | VENDOR_DOLBY    |
     
     
     
@@ -70,7 +70,7 @@ Feature: Validating the swagger API for Video Booking-Vendor Dolby
     
   Examples:
     | Parent                       | DisplayName| AngleName 																| ForeignIDType | ForeignIDValue | AutomatedStartMargin | AutomatedEndMargin | AutomateBooking |
-    | org/Test_Org/orgUnits/Unit-01| Source     |platforms/video/cameraAngles/jockey_cam_10 | CHRIMSEventCode| test 					| 10s      							| 10s 							| true					 |
+    | org/test/orgUnits/test1| Source     |platforms/video/cameraAngles/jockey_cam_10 | CHRIMSEventCode| test 					| 10s      							| 10s 							| true					 |
     
     
   @VideoChannel-Dolby
@@ -94,7 +94,7 @@ Scenario: Verify whether Video Channel Dolby API is working properly
 
 Examples:
     | Parent                       | DisplayName | Vendor        | AutoAngle                          | connectorID | clusterName                                                      | height | frameRate | description      | ForeignIDType  | ForeignIDValue | createReplay |
-    | org/Test_Org/orgUnits/Unit-01| DolbyChannel  | VENDOR_DOLBY  | platforms/video/cameraAngles/backside | 74          | platforms/video/videoChannelClusters/018e5dcb-7d64-7578-b9b7-2f1a324894de | _1080p | _50f      | test description | CHRIMSEventCode | 123            | true         |
+    | org/test/orgUnits/test1| DolbyChannel  | VENDOR_DOLBY  | platforms/video/cameraAngles/backside | 74          | platforms/video/videoChannelClusters/01915c14-c2aa-77ae-a667-0f495557caf8 | _1080p | _50f      | test description | CHRIMSEventCode | 123            | true         |
 
 
    
@@ -117,6 +117,6 @@ Examples:
     Then "state" in response body as "STATE_PENDING"
    Examples:
     | Parent                       |   ForeignIDType   | ForeignIDValue |
-    | org/Test_Org/orgUnits/Unit-01| CHRIMSEventCode | 123            |
+    | org/test/orgUnits/test1| CHRIMSEventCode | 123            |
    
    
